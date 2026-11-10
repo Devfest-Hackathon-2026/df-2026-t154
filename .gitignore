@@ -32,3 +32,8 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 *.log
+
+# アプリ固有の生成物・一時認証情報
+coverage/
+*.tsbuildinfo
+gha-creds-*.json

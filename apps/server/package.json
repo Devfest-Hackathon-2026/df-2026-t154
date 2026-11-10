@@ -1,0 +1,16 @@
+{
+  "name": "@atono/server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@atono/shared": "0.0.0",
+    "@google/genai": "3.0.0",
+    "express": "5.3.0"
+  }
+}
